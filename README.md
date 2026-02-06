@@ -1,12 +1,8 @@
-Perfect! Here’s your **final README.md** ready to use with the **new architecture diagram** and your **LinkedIn link** included:
-
----
-
 
 
 ## Overview
 
-This repository hosts my submission for the.
+This repository hosts my submission for the .
 It’s a fully **containerized Three-Tier Web Application** with:
 
 * **Frontend:** ReactJS
@@ -21,8 +17,7 @@ The app is deployed on **AWS EKS** with **Docker containers stored in AWS ECR**,
 
 ## Architecture Diagram
 
-![3-Tier App Architecture](images/ A_UML-style_architecture_diagram_illustrates_a_thr.png)
-
+![3-Tier App Architecture](images/arc_diigram.png)
 
 **Diagram Legend:**
 
@@ -51,7 +46,7 @@ repo/
 │   ├─ ingress.yaml
 │   └─ service.yaml
 ├─ images/                   # Architecture diagram
-│   └─ A_UML-style_architecture_diagram_illustrates_a_thr.png
+│   └─ arc_diigram.png
 └─ README.md
 ```
 
@@ -118,4 +113,3 @@ Happy Learning! 🚀
 [LinkedIn](https://www.linkedin.com/in/asadkhan-dev)
 
 ---
-
