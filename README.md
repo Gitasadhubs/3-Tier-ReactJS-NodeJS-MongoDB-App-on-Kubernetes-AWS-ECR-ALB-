@@ -1,8 +1,9 @@
 
+# #ThreeTierApp
 
 ## Overview
 
-This repository hosts my submission for the .
+
 It’s a fully **containerized Three-Tier Web Application** with:
 
 * **Frontend:** ReactJS
@@ -17,7 +18,7 @@ The app is deployed on **AWS EKS** with **Docker containers stored in AWS ECR**,
 
 ## Architecture Diagram
 
-![3-Tier App Architecture](images/arc_diigram.png)
+![3-Tier App Architecture](A_UML-style_architecture_diagram_illustrates_a_thr.png)
 
 **Diagram Legend:**
 
@@ -45,8 +46,7 @@ repo/
 │   ├─ mongo-deployment.yaml
 │   ├─ ingress.yaml
 │   └─ service.yaml
-├─ images/                   # Architecture diagram
-│   └─ arc_diigram.png
+├─ A_UML-style_architecture_diagram_illustrates_a_thr.png  # Architecture diagram
 └─ README.md
 ```
 
@@ -90,7 +90,7 @@ kubectl apply -f k8s/
 
 5. **Access app** via ALB URL
 
-*(For full AWS EKS & Load Balancer setup, follow the detailed steps in the original guide.)*
+*(For full AWS EKS & Load Balancer setup, follow the detailed guide.)*
 
 ---
 
