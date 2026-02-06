@@ -21,7 +21,8 @@ The app is deployed on **AWS EKS** with **Docker containers stored in AWS ECR**,
 
 ## Architecture Diagram
 
-![3-Tier App Architecture](images/arc daigram.png)
+![3-Tier App Architecture](images/ A_UML-style_architecture_diagram_illustrates_a_thr.png)
+
 
 **Diagram Legend:**
 
@@ -118,22 +119,3 @@ Happy Learning! 🚀
 
 ---
 
-✅ **Next Steps:**
-
-1. Place the diagram you just generated in the `images/` folder of your repo:
-
-```
-images/A_UML-style_architecture_diagram_illustrates_a_thr.png
-```
-
-2. Commit and push the README.md and image:
-
-```bash
-git add README.md images/A_UML-style_architecture_diagram_illustrates_a_thr.png
-git commit -m "Add final README with architecture diagram and LinkedIn profile"
-git push origin main
-```
-
----
-
-I
