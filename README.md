@@ -1,2 +1,139 @@
-# 3-Tier-ReactJS-NodeJS-MongoDB-App-on-Kubernetes-AWS-ECR-ALB-
-This repository contains a fully containerized 3-tier web application with ReactJS frontend, NodeJS backend, and MongoDB database, deployed on Kubernetes in AWS. It demonstrates a modern CI/CD workflow using GitHub → Docker → AWS ECR → Kubernetes with Ingress routing and an Application Load Balancer (ALB).
+Perfect! Here’s your **final README.md** ready to use with the **new architecture diagram** and your **LinkedIn link** included:
+
+---
+
+
+
+## Overview
+
+This repository hosts my submission for the.
+It’s a fully **containerized Three-Tier Web Application** with:
+
+* **Frontend:** ReactJS
+* **Backend:** NodeJS
+* **Database:** MongoDB
+
+The app is deployed on **AWS EKS** with **Docker containers stored in AWS ECR**, **Kubernetes Deployments & Services**, **Ingress routing**, and an **Application Load Balancer (ALB)**.
+
+📌 **Connect with me:** [Asad Ashraf on LinkedIn](https://www.linkedin.com/in/asadkhan-dev)
+
+---
+
+## Architecture Diagram
+
+![3-Tier App Architecture](images/arc daigram.png)
+
+**Diagram Legend:**
+
+* Blue: AWS Layer (ALB & EKS)
+* Yellow/Orange: Application Pods (Frontend & Backend)
+* Green: Database Pod (MongoDB)
+* Arrows: Traffic flow from Users → ALB → Ingress → Frontend/Backend → Database
+
+---
+
+## Repository Structure
+
+```
+repo/
+│
+├─ frontend/                 # ReactJS app
+│   └─ Dockerfile
+├─ backend/                  # NodeJS API
+│   └─ Dockerfile
+├─ mongodb/                  # MongoDB container
+│   └─ Dockerfile
+├─ k8s/                      # Kubernetes manifests
+│   ├─ frontend-deployment.yaml
+│   ├─ backend-deployment.yaml
+│   ├─ mongo-deployment.yaml
+│   ├─ ingress.yaml
+│   └─ service.yaml
+├─ images/                   # Architecture diagram
+│   └─ A_UML-style_architecture_diagram_illustrates_a_thr.png
+└─ README.md
+```
+
+---
+
+## Features
+
+* **CI/CD Automation:** GitHub → Docker → AWS ECR → Kubernetes
+* **Kubernetes Deployments:** Frontend, Backend, MongoDB
+* **Ingress Routing:** Routes traffic from ALB to Frontend & Backend
+* **Monitoring (Optional):** Prometheus & Grafana
+* **GitOps (Optional):** ArgoCD integration
+
+---
+
+## Getting Started
+
+1. **Clone repo:**
+
+```bash
+git clone <repo-url>
+cd repo
+```
+
+2. **Build Docker images:**
+
+```bash
+docker build -t frontend ./frontend
+docker build -t backend ./backend
+docker build -t mongo ./mongodb
+```
+
+3. **Push to AWS ECR**
+
+4. **Deploy Kubernetes manifests:**
+
+```bash
+kubectl create namespace workshop
+kubectl apply -f k8s/
+```
+
+5. **Access app** via ALB URL
+
+*(For full AWS EKS & Load Balancer setup, follow the detailed steps in the original guide.)*
+
+---
+
+## Contribution
+
+* Fork → Feature Branch → PR
+* Add enhancements or fixes
+* PRs merged = Eligible for rewards!
+
+---
+
+## Support
+
+Open an issue in the repository for any help.
+
+---
+
+Happy Learning! 🚀
+**— Asad Ashraf**
+[LinkedIn](https://www.linkedin.com/in/asadkhan-dev)
+
+---
+
+✅ **Next Steps:**
+
+1. Place the diagram you just generated in the `images/` folder of your repo:
+
+```
+images/A_UML-style_architecture_diagram_illustrates_a_thr.png
+```
+
+2. Commit and push the README.md and image:
+
+```bash
+git add README.md images/A_UML-style_architecture_diagram_illustrates_a_thr.png
+git commit -m "Add final README with architecture diagram and LinkedIn profile"
+git push origin main
+```
+
+---
+
+I
